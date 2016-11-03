@@ -1,0 +1,17 @@
+{
+  "name": "hello-electron",
+  "version": "1.0.0",
+  "description": "Hello World App made in Electron",
+  "main": "app.js",
+  "author": "Akshay Kadam",
+  "license": "MIT",
+  "scripts": {
+    "start": "electron ."
+  },
+  "devDependencies": {
+    "electron-prebuilt": "^1.4.5"
+  },
+  "dependencies": {
+    "electron": "^1.4.5"
+  }
+}
