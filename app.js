@@ -9,7 +9,7 @@ app.on('ready', () => {
 
   mainWindow = new BrowserWindow({width: 1280, height: 1024, frame: false})
 
-  mainWindow.loadURL('https://100dayz.js.org')
+  mainWindow.loadURL('https://blog-0904.herokuapp.com')
 
   mainWindow.on('closed', function() {
     mainWindow = null
